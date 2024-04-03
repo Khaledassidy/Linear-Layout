@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- android:orientation="horizontal" keef badak l views yensafo bel 3ard wala bel toul-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="horizontal"
+    android:gravity="center"
+    tools:context=".MainActivity">
+<!--iza bade 7out kel l b2alb linear layout bel nous gravity b2alb l linear layout-->
+<!--layout gravity b7aded kel layout 2aw l view ween matra7a bel nesbe lal parent iza bel nous 2aw wenn-->
+<!--    layout weight bt7aded l view exmple l button adesh ye5od mn 3ard l 2ab ta3elo exmple houn l ab linearlayout-->
+<!--    ya3ne bas t7out layout weight 1 ye5od kel l masefe le 2edemo rje3t 7atet la, button tene weight 1 kamen ye5od kel masefe l 2edemo w yet2asama ma3 l button l 2ola w heeek...-->
+<!--    houn 3ande 3 button iza 7atet keloun android:layout_weight="1" 7a ye5do kel l 3ard ta3el l ab le howe linear layout btwaze3 ad maken 3adad l button bta3mel 3ardoun ad ba3d 3ala kol 3ard l ab btfawel 3ard l ab 3ala 3adadoun lal view-->
+<!--    houn 3 azrar kel w7ad l weight 1 so kel wa7ad e5ed 1/3 mn 3ard l ab-->
+<!--    another attrubute fene a3te color 2aw image lal button  android:background="#7B1A1A"-->
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#7B1A1A"
+        android:layout_weight="1"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Button" />
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Button" />
+
+<!--    houn iza 7atet l oriantation vertical w 7atyt l wight=1 la kel button so 7a yetwaza3 l button bel toul 3ala kel l ab l howe linear layout 2 mesh l 3ard toul iza keen vertical-->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Button" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Button" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Button" />
+    </LinearLayout>
+<!--    iza bade ba3d l zrar 3an ba3d ya ba3mel padding lal layout 2aw margin lal button-->
+
+
+</LinearLayout>
